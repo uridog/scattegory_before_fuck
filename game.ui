@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gameWindow</class>
+ <widget class="QMainWindow" name="gameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="game_table">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">;background-color:rgb(255, 255, 255);
+border:1px solid red
+;gridline-color: rgb(170, 85, 255);
+text-color:rgb(255, 85, 127)</string>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>letter1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>letter2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>letter3</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>country</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>city</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>boy name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>movie</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>household-item</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>fruit and veggies</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>animal</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>baba</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>hthrth</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="game_starting">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>331</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Magneto&quot;; font-size: 35px;height: 20px;width: 45px;</string>
+    </property>
+    <property name="text">
+     <string>Round starting in </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="three">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>400</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Magneto&quot;; font-size: 35px;height: 20px;width: 45px;</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="two">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>400</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Magneto&quot;; font-size: 35px;height: 20px;width: 45px;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="one">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>400</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Magneto&quot;; font-size: 35px;height: 20px;width: 45px;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="round_time">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>470</y>
+      <width>461</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Magneto&quot;; font-size: 35px;height: 20px;width: 45px;</string>
+    </property>
+    <property name="text">
+     <string>round timer 30 seconds</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
